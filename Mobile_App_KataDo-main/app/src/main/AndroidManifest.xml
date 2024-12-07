@@ -27,10 +27,10 @@
         android:theme="@style/Theme.FinalProject"
         tools:targetApi="31">
         <activity
-            android:name=".TempEditVideoActivity"
+            android:name=".ViewResultActivity"
             android:exported="false" />
         <activity
-            android:name=".PopupUpload"
+            android:name=".WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,7 +51,7 @@
             android:name=".ViewProfileActivity"
             android:exported="true" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".TempEditVideoActivity"
             android:theme="@style/AppTheme.Popup" />
         <activity
             android:name=".EditVideoActivity"
@@ -69,7 +69,7 @@
             android:name=".ProcessingActivity"
             android:exported="true" />
         <activity
-            android:name=".ViewResultActivity"
+            android:name=".PopupUpload"
             android:exported="true" />
         <activity
             android:name=".HomepageActivity"
